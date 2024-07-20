@@ -1,0 +1,60 @@
+<!--  control flow "syntax" (for , if , switch )-->
+
+<h1>Hello from Home Compoenent</h1>
+
+
+@for (item of friends; track $index) 
+{
+    <h1>{{item}}</h1>
+}
+
+<!-- if ===> show , hide ==> DOM -->
+
+@if(role == 'admin')
+{
+    <h1 class="text-center bg-green-500">Welcome ya Admin</h1>
+}
+@else if (role == 'user') 
+{
+    <h1 class="text-center bg-green-500">Welcome ya user</h1>
+}
+@else 
+{
+    <h1 class="text-center bg-green-500">Welcome ya Visitor</h1>
+}
+
+
+
+
+
+
+
+<!-- 
+@switch (role) 
+{
+    @case ('admin') 
+    {
+        <h1 class="text-center bg-green-500">Welcome ya Admin</h1>
+    }
+    @case ('user') 
+    {
+        <h1 class="text-center bg-green-500">Welcome ya USer</h1>
+
+    }
+    @default {
+        <h1 class="text-center bg-green-500">Welcome ya Visitor</h1>
+
+    }
+} -->
+
+
+
+<!-- for , if , switch -->
+
+
+
+
+
+
+
+
